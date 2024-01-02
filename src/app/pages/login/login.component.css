@@ -1,0 +1,17 @@
+/* Set the initial width to be 100% for mobile devices */
+.google-btn-custom {
+    width: 100%;
+  }
+  
+  /* As the screen size increases, you can set a maximum width if needed */
+  @media (min-width: 768px) { /* for tablets */
+    .google-btn-custom {
+      max-width: 50%;
+    }
+  }
+  
+  @media (min-width: 992px) { /* for desktops */
+    .google-btn-custom {
+      max-width: 300px; /* or whatever maximum width you prefer */
+    }
+  }
